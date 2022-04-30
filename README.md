@@ -1,3 +1,4 @@
+# THIS PROJECT IS AT IT'S FIRST STAGES OF DEVELOPMENT, YOU CAN'T USE IT FOR ANY GAME DEVELOPMENT (yet)
 # What is 'ixi' ?
 **Shortly: A PixiJS without the P**(ain of using it for game-development)\
 __Alternatively__: A small, simple and easy-to-use game-engine* for web development, powered mostly by great pixi.js library!
