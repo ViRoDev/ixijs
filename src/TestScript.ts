@@ -1,5 +1,5 @@
 import { Graphics } from "pixi.js";
-import { Script } from "./Script"
+import { Script } from "./ixi/Script"
 
 export class TestScript extends Script
 {
@@ -10,6 +10,6 @@ export class TestScript extends Script
 
     onUpdate(): void 
     {
-        console.log("huh?");
+        //console.log("huh?");
     }
 }

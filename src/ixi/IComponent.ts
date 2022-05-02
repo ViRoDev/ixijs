@@ -2,7 +2,8 @@ import { GameObject } from "./GameObject";
 
 export interface IComponent
 {
-    getGameObject(): GameObject;
+    get name(): string;
+    get parent(): GameObject;
     onStart(): void;
     onUpdate(): void;
     onDestroy(): void;

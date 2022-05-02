@@ -10,7 +10,10 @@ export abstract class Script implements IComponent
     {
         this._gameObject = gameObject;
     }
-    getGameObject(): GameObject {
+    public get name(): string {
+        return this._scriptName;
+    }
+    public get parent(): GameObject {
         return this._gameObject;
     }
 
